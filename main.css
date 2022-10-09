@@ -1,0 +1,302 @@
+.head{
+    font-size: 1.2rem;
+    color: rgb(134, 29, 73);
+    padding-right: 100px;
+    /* z-index: 2; */
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    
+}
+.buger{
+    position: relative;
+    display: relative;
+    width: 35px;
+    cursor: pointer;
+    height: 5px;
+    appearance: none;
+    background: none;
+    outline: none;
+}
+.buger .bar, .buger::after, .buger::before{
+    content: " ";
+    display: block;
+   width: 100%;
+   height: 4px;
+   background-color: #fff;
+   margin: 6px 6px;
+   transition: 0.4s;
+}
+ /* .is-active::before{
+    content: " ";
+    display: block;
+   width: 20px;
+   height: 4px;
+   background-color: #fff;
+   margin: 6px 6px;
+   transition: 0.4s;}
+ .is-active::after{
+    content: " ";
+    display: block;
+   width:20px;
+   height: 4px;
+   background-color: #fff;
+   margin: 6px 6px;
+   transition: 0.4s; */
+
+/* }  */
+/* .is-active::before{
+    transform: rotate(-45deg) translate(-1px, 5px);
+}
+.is-active::after{
+   
+    transform: rotate(45deg) translate(-1px, -8px);
+}
+.is-active {
+    margin-top: 10px;
+   color: white;
+   position: relative;
+   display: relative;
+   width: 35px;
+   cursor: pointer;
+   height: 5px;
+   appearance: none;
+   background: none;
+   outline: none;
+} */
+
+.head1{
+    display: flex;
+    justify-content: space-around;
+}
+.links{
+    display: flex;
+}
+.links a{
+   font-size: 1.2rem;
+   font-style: none;
+   text-decoration: none;
+   display: inline-block;
+   padding-left: 50px;
+   color: rgb(226, 206, 175);
+}
+.text1{
+    margin: 100px;
+  
+}
+.text1 h1{
+    font-size: 3rem;
+   font-style: oblique;
+   color: rgb(226, 206, 175);
+   
+}
+.main{
+    background-image: linear-gradient(rgba(21, 20, 22, 0.6), transparent), url(./image/hand\ on\ desk.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+.text1 h2{
+    color: rgb(226, 206, 175);
+    /* padding-left: 50px; */
+    padding-top: 20px;
+    font-size: 3.5rem;
+    text-shadow:2px 2px 4px #d4c9c9;
+    /* font-style: italic; */
+}
+.text1 h3{
+    color: rgb(134, 29, 73);
+    margin-top: -30px;
+
+}
+.text1 p{
+    color: rgb(134, 29, 73);
+    font-size: 30px;
+}
+.icon a{
+    color:wheat ;
+    position: relative;
+    margin-left: 10px;
+     /* translate :2s; */
+}
+.main-icon{
+    font-size: 40px;
+    display: flex;
+    margin-left: 300px;
+
+}
+.main-icon p{
+ color: rgb(134, 29, 73);
+ text-decoration: none;
+}
+.icon a:hover{
+    color: rgb(134, 29, 73);
+    /* transition: translateY(.4s); */
+}
+.div2{
+    color: wheat;
+    padding-left: 200px;
+    margin-top: 100px;
+    /* font-size: xx-large; */
+       /* background-color: black; */
+}
+.side-image{
+    display: flex;
+    padding: 100px;
+ 
+}
+.div2 h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+body{
+  background-color: black;
+}
+.side-image h3{
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* .side-image img{
+    height: 500px;
+    width: 100px;
+} */
+span{
+    color: rgb(134, 29, 73);
+}
+.btn-div{
+    margin-top: 20px;
+    display: flex;
+    column-gap: 10px;
+    
+}
+.btn-div a{
+    padding: 10px 15px;
+    border: 1px solid;
+    text-decoration: none;
+    color: #fff;
+}
+.btn-div span{
+    font-size: 0.8rem;
+}
+.cards{
+    height: 50px;
+    width: 800px;
+    color: wheat;
+    margin-top: 200px;
+     display: flex;
+     justify-content: space-evenly;
+     padding-left: 200px;
+}
+.card{
+    /* margin: 50px; */
+    padding: 50px;
+   
+}
+.cards .card img{
+ border-radius: 100%;
+ height: 100px;
+ width: 100px;
+ margin-left: 20px;
+}
+.root{
+    margin-top: 500px;
+    color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    padding-left: 100px;
+    background-color: rgba(78, 12, 39, 0.541);
+    width: 100%;
+}
+.root-items{
+    margin-left: 80px;
+}.icon2 i{
+    color: rgb(134, 29, 73);
+}
+.clone{
+ color: rgb(134, 29, 73);
+ font-size: 40px;
+ padding-left: 40px;
+}
+.root-items .ul li{
+   /* color: black ; */
+   text-decoration: none;
+   list-style: none;
+   letter-spacing: 1px;
+}
+#nav{
+    color: rgb(85, 83, 79);
+    background-color: white;
+    line-height: 40px;
+    margin-top: 60px;
+    width:  300px;
+    text-align: center;
+    letter-spacing: 2px;
+    position: fixed;
+    top: 50px;
+    padding: 10px 0;
+    transition: 800ms;
+    right: -300px;
+
+}
+
+
+@media screen and (min-width: 800px) {
+    .buger{
+        display: none;
+    }
+    .is-active{
+      display: none;  
+    }
+    
+
+}
+@media screen and (max-width: 800px) {
+    html{
+        font-size: 10px;
+    }
+    .cards{
+        padding-top: 400px;
+        display: flex;
+        flex-direction:column;
+        height: 800px;
+        width: 250px;
+        /* text-align: center; */
+        row-gap: 10px;
+        font-size: 15px;
+    }
+    .links a{
+        display: none;
+    }
+    .root{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .main-icon{
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+    }
+    .side-image{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        padding-left: -200px;
+    }
+    .side-image h3{
+        /* width: 100%; */
+        padding-left: -100px;
+    }
+    .btn-div{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        column-gap: 10px;
+        
+    }
+
+}
